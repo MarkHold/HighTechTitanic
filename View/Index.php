@@ -1,12 +1,32 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: bekola
- * Date: 2018-03-30
- * Time: 21:52
- */
+<html>
 
-class index
-{
+    <div>
+        <form action="Register.php">
 
-}
+            <input type="submit" name="Register" value="Register">
+
+        </form>
+    </div>
+
+    <form id='login' action='Login.php' method='post' accept-charset='UTF-8'>
+
+        <fieldset >
+
+        <legend>Login</legend>
+
+        <input type='hidden' name='submitted' id='submitted' value='1'/>
+
+        <label for='username' >UserName:</label>
+
+        <input type='text' name='username' id='username'  maxlength="50" />
+
+        <label for='password' >Password:</label>
+
+        <input type='password' name='password' id='password' maxlength="50" />
+
+        <input type='submit' name='Submit' value='login' />
+
+        </fieldset>
+    </form>
+
+</html>
