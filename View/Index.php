@@ -8,7 +8,7 @@
         </form>
     </div>
 
-    <form id='login' action='Login.php' method='post' accept-charset='UTF-8'>
+    <form id='login' action='TitanicManager.php' method='post' accept-charset='UTF-8'>
 
         <fieldset >
 
@@ -28,5 +28,4 @@
 
         </fieldset>
     </form>
-
 </html>
